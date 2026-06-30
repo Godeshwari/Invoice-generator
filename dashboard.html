@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Invoice Dashboard</title>
+
+<link rel="stylesheet" href="dashboard.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <h1>Invoice Dashboard</h1>
+
+        <a href="index.html" class="btn">
+            <i class="fa-solid fa-plus"></i>
+            New Invoice
+        </a>
+
+    </header>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2 id="totalInvoices">0</h2>
+            <p>Total Invoices</p>
+        </div>
+
+        <div class="card">
+            <h2 id="totalRevenue">₹0</h2>
+            <p>Total Revenue</p>
+        </div>
+
+        <div class="card">
+            <h2 id="todayInvoices">0</h2>
+            <p>Today's Invoices</p>
+        </div>
+
+    </div>
+
+    <div class="search">
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search Invoice No or Customer">
+
+    </div>
+
+    <table>
+
+        <thead>
+
+        <tr>
+
+            <th>Invoice No</th>
+
+            <th>Date</th>
+
+            <th>Customer</th>
+
+            <th>Total</th>
+
+            <th>Status</th>
+
+            <th>Action</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody id="invoiceBody">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
