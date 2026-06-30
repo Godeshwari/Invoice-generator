@@ -61,4 +61,7 @@ Generate professional invoices with automatic calculations, GST, discount manage
 
 <img width="924" height="756" alt="Screenshot 2026-06-30 at 8 44 37 PM" src="https://github.com/user-attachments/assets/fe1e753e-0bd2-42f3-8089-49951d5d6373" />
 
+## Dashboard
+
+<img width="1310" height="499" alt="Screenshot 2026-06-30 at 9 07 23 PM" src="https://github.com/user-attachments/assets/c459208b-4e6a-4df9-be4a-56277391f251" />
 
